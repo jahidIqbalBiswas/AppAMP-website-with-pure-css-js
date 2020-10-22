@@ -1,0 +1,211 @@
+@media (max-width:950px) {
+    .serviceItemWrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .pricingItemWrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .pricingItem:last-child {
+        grid-column: 1/-1;
+    }
+    .teamItemWrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .whatsNewItem {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .whatsNewItem img {
+        height: auto;
+        width: 100%;
+    }
+    .feedbackItemsWrapper {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5rem;
+    }
+    .feedbackItem:last-child {
+        grid-column: 1/-1;
+    }
+}
+
+@media (max-width:900px) {
+    .contactForm {
+        margin-top: 7rem;
+    }
+}
+
+@media (max-width:850px) {
+    html {
+        font-size: 55.5%;
+    }
+    .tutorialWrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .videoSection {
+        order: 1;
+    }
+    .descriptionSection {
+        order: -1;
+    }
+}
+
+@media (max-width:750px) {
+    h1 {
+        font-size: 5rem;
+    }
+    .serviceItem {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+    }
+    .buyNowNone {
+        display: none;
+    }
+    .buyNowMobileBlock {
+        display: block;
+    }
+    .menu {
+        position: fixed;
+        top: 0rem;
+        right: 0;
+        height: 100vh;
+        background: #fff;
+        width: 25rem;
+        padding-top: 4rem;
+        overflow-x: hidden;
+        overflow-y: auto;
+        transform: translateX(25rem);
+        -webkit-transform: translateX(25rem);
+        -moz-transform: translateX(25rem);
+        -ms-transform: translateX(25rem);
+        -o-transform: translateX(25rem);
+        transition: .4s;
+        -webkit-transition: .4s;
+        -moz-transition: .4s;
+        -ms-transition: .4s;
+        -o-transition: .4s;
+    }
+    /* .overlay {
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+    } */
+    .opacity1 {
+        opacity: 1;
+        visibility: visible;
+    }
+    .menu>ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menuClose {
+        display: inline-block;
+        margin-left: 3rem;
+        font-size: 2.5rem;
+    }
+    .menu ul li a {
+        padding: 1.5rem 1rem;
+        text-align: center;
+        font-size: 1.7rem;
+    }
+    .buyNow.buyNowMobileBlock a {
+        margin-top: 1.5rem;
+    }
+    ul {
+        z-index: -99;
+        position: unset !important;
+    }
+    .buyNowMobileBlock {
+        text-align: center;
+    }
+    .mobileBar {
+        display: block;
+        font-size: 3rem;
+        font-weight: 600;
+        padding: 2rem 0;
+    }
+    .descriptionSection {
+        text-align: center;
+    }
+}
+
+@media (max-width: 580px) {
+    html {
+        font-size: 52.5%;
+    }
+    .serviceItemWrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 4rem;
+    }
+    h3 {
+        font-size: 3.4rem;
+    }
+    .title>p {
+        font-size: 2rem;
+    }
+    .heroComponent a {
+        padding: 1.5rem 2rem;
+    }
+    input,
+    .input {
+        padding: 1.5rem;
+    }
+    .pricingItem:last-child {
+        grid-column: auto;
+    }
+    .pricingItemWrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* .teamItemWrapper {
+        grid-template-columns: repeat(1, 1fr);
+    } */
+    .feedbackItemsWrapper {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 7rem;
+    }
+    .whatsNewWrapper {
+        grid-template-columns: repeat(1, auto);
+    }
+    .whatsNewItem {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}
+
+@media (max-width: 420px) {
+    .teamItemWrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .newsLatterForm form {
+        flex-direction: column;
+    }
+    .newsLatterForm form input[type="submit"] {
+        margin: 1rem 1.5rem;
+    }
+    .contactSectionWrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+        grid-column-gap: 8rem;
+        align-items: center;
+    }
+    .heroComponent a {
+        padding: 1rem 2rem;
+        font-size: 1.4rem;
+        margin: .5rem;
+    }
+    .contactForm form input[type="text"] {
+        grid-column: 1/-1;
+    }
+    .contactForm form input[type="number"] {
+        grid-column: 1/-1;
+    }
+}
