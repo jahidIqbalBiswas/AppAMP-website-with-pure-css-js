@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppAMP Time Planner App DeveLopment</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <nav>
+            <div class="container">
+                <div class="navWrapper">
+                    <div class="logo">
+                        <img src="./img/logo.png" alt="">
+                        <a href="#"><span>AppAMP Theme</span></a>
+                    </div>
+                    <div class="menu">
+                        <i class="fas fa-times menuClose"></i>
+                        <ul>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">live demo <i class="fas fa-caret-down"></i> </a>
+                                <ul>
+                                    <li>
+                                        <a href="#">time planner app</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">health tracer app</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)"> demo blocks <i class="fas fa-caret-down"></i></a>
+                                <ul class="demo">
+                                    <li>
+                                        <a href="#">headers</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">features</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">pricing table & articles</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">team & testimonials</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">gallery & videos</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">forms & maps & footer</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="buyNow buyNowMobileBlock">
+                            <a href="#" class="btn">buy now</a>
+                        </div>
+                    </div>
+                    <div class="buyNow buyNowNone">
+                        <a href="#" class="btn">buy now</a>
+                    </div>
+
+                    <div class="mobileBar">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="overlay"></div>
+    <!-- hero section -->
+    <section class="heroSection">
+        <div class="container">
+            <div class="heroComponent text-center">
+                <h4>Created to save your time</h4>
+                <h1>Time Planner App</h1>
+                <a href="#" class="btn-fill"> <i class="fab fa-android"></i> goggle play</a>
+                <a href="#" class="btn-fill"> <i class="fab fa-apple"></i> app store</a>
+            </div>
+        </div>
+    </section>
+    <!-- tutorial section -->
+    <section class="tutorial py-100">
+        <div class="container">
+            <div class="tutorialWrapper">
+                <div class="videoSection">
+                    <iframe height="340" src="https://www.youtube.com/embed/7MnP25BL-wI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="descriptionSection">
+                    <h3>Watch a video on how to use our app</h3>
+                    <p>It’s not just about recording employee hours. It’s about understanding employee availability. It’s about hitting project deadlines — while staying on budget. It’s knowing you’ll never have to update another Excel spreadsheet. It’s
+                        about making things easy. It’s giving your team the tools they need to do their jobs well. And the insights to work more effectively than ever before.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service section -->
+    <section class="serviceSection py-100">
+        <div class="container">
+            <div class="title">
+                <h1>Learn more about our application</h1>
+                <p>Track time without wasting a second</p>
+            </div>
+            <div class="serviceItemWrapper">
+                <div class="serviceItem">
+                    <i class="fas fa-laptop fa-2x"></i>
+                    <div class="service-text">
+                        <h4>Time Tracking</h4>
+                        <p>Accurate and simple time tracking. Task-based estimation</p>
+                    </div>
+                </div>
+                <div class="serviceItem">
+                    <i class="fas fa-external-link-alt fa-2x"></i>
+                    <div class="service-text">
+                        <h4>
+                            Resource Planning</h4>
+                        <p>Monitor team’s utilization across different projects</p>
+                    </div>
+                </div>
+                <div class="serviceItem">
+                    <i class="far fa-hdd fa-2x"></i>
+                    <div class="service-text">
+                        <h4>Integrations</h4>
+                        <p>Track time inside the most popular project management tools</p>
+                    </div>
+                </div>
+                <div class="serviceItem">
+                    <i class="fas fa-server fa-2x"></i>
+                    <div class="service-text">
+                        <h4>
+                            Task Management</h4>
+                        <p>Create tasks, track time and update progress in one place</p>
+                    </div>
+                </div>
+                <div class="serviceItem">
+                    <i class="fas fa-bug fa-2x"></i>
+                    <div class="service-text">
+                        <h4>Reporting</h4>
+                        <p>Highly flexible reports to analyze time the way you want</p>
+                    </div>
+                </div>
+                <div class="serviceItem">
+                    <i class="fas fa-dollar-sign fa-2x"></i>
+                    <div class="service-text">
+                        <h4>Invoicing</h4>
+                        <p>Create invoices from time entries and send them to your clients</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- pricing section -->
+    <section class="pricing py-50">
+        <div class="container">
+            <div class="title">
+                <h1 class="font-400">Start using our app today</h1>
+                <p>Set of tools to seamlessly manage projects during their entire life cycle</p>
+            </div>
+            <div class="pricingItemWrapper">
+                <div class="pricingItem">
+                    <div class="pricing-item-header">
+                        <h4>Free Version</h4>
+                        <h1>$0 <span>/ month</span></h1>
+                        <h5>Who is this for?</h5>
+                        <p>Free version for students and regular users</p>
+                    </div>
+                    <div class="pricingItemBody">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Time Tracking</li>
+                            <li><i class="fas fa-check"></i> Resource Planning</li>
+                            <li><i class="fas fa-times"></i> Integrations</li>
+                            <li><i class="fas fa-times"></i> Task Management</li>
+                            <li><i class="fas fa-times"></i> Reporting</li>
+                            <li><i class="fas fa-times"></i> Invoicing</li>
+                        </ul>
+                        <a href="#" class="btn-fill block">get free now</a>
+                    </div>
+                </div>
+                <div class="pricingItem">
+                    <div class="pricing-item-header">
+                        <h4>User</h4>
+                        <h1>$10 <span>/ month</span></h1>
+                        <h5>Who is this for?</h5>
+                        <p>The version for business people having a tight schedule</p>
+                    </div>
+                    <div class="pricingItemBody">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Time Tracking</li>
+                            <li><i class="fas fa-check"></i> Resource Planning</li>
+                            <li><i class="fas fa-check"></i> Integrations</li>
+                            <li><i class="fas fa-check"></i> Task Management</li>
+                            <li><i class="fas fa-times"></i> Reporting</li>
+                            <li><i class="fas fa-times"></i> Invoicing</li>
+                        </ul>
+                        <a href="#" class="btn-fill block">get access now</a>
+                    </div>
+                </div>
+                <div class="pricingItem">
+                    <div class="pricing-item-header">
+                        <h4>Pro</h4>
+                        <h1>$15 <span>/ month</span></h1>
+                        <h5>Who is this for?</h5>
+                        <p>Maximum version for large companies</p>
+                    </div>
+                    <div class="pricingItemBody">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Time Tracking</li>
+                            <li><i class="fas fa-check"></i> Resource Planning</li>
+                            <li><i class="fas fa-check"></i> Integrations</li>
+                            <li><i class="fas fa-check"></i> Task Management</li>
+                            <li><i class="fas fa-check"></i> Reporting</li>
+                            <li><i class="fas fa-check"></i> Invoicing</li>
+                        </ul>
+                        <a href="#" class="btn-fill block">get access now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- team section -->
+    <section class="team py-100">
+        <div class="container">
+            <div class="title">
+                <h2>Our team is constantly trying for you</h2>
+            </div>
+            <div class="teamItemWrapper">
+                <div class="teamItem">
+                    <div class="teamImage">
+                        <img src="./img/face1.jpg" alt="">
+                    </div>
+                    <div class="teamDetails">
+                        <h4>Jason Doe</h4>
+                        <span>Programmer</span>
+                    </div>
+                </div>
+                <div class="teamItem">
+                    <div class="teamImage">
+                        <img src="./img/face2.jpg" alt="">
+                    </div>
+                    <div class="teamDetails">
+                        <h4>Amanda Swon</h4>
+                        <span>Designer</span>
+                    </div>
+                </div>
+                <div class="teamItem">
+                    <div class="teamImage">
+                        <img src="./img/face3.jpg" alt="">
+                    </div>
+                    <div class="teamDetails">
+                        <h4>Andrew Smith</h4>
+                        <span>Support</span>
+                    </div>
+                </div>
+                <div class="teamItem">
+                    <div class="teamImage">
+                        <img src="./img/face4.jpg" alt="">
+                    </div>
+                    <div class="teamDetails">
+                        <h4>Jane Olsen</h4>
+                        <span>Manager</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- news latter section -->
+    <section class="newsLatter  py-100">
+        <div class="container">
+            <div class="title">
+                <p>Keep up to date with the latest updates</p>
+                <h3>Subscribe to our newsletter</h3>
+            </div>
+            <div class="newsLatterForm text-center">
+                <form action="#">
+                    <input type="email" name="email" placeholder="E-mail Address">
+                    <input type="submit" class="btn-fill" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- whats new -->
+    <section class="whatsNew py-100">
+        <div class="container">
+
+
+
+            <div class="whatsNewWrapper">
+                <h2>What's new?</h2>
+                <p class="font-400">Accurate employee time tracking software for reporting, invoicing and painless payroll. Trusted by over 2,000 businesses in more than 70 countries. </p>
+                <div class="whatsNewItem">
+                    <!-- <div class="whatsNewItemImg"> -->
+                    <img src="./img/02.jpg" alt="">
+                    <!-- </div> -->
+
+
+                    <div class="whatsNewItemDescription">
+                        <h5 class="font-500">Reporting</h5>
+                        <p>Highly flexible reports to analyze time the way you want</p>
+                    </div>
+                </div>
+
+
+
+                <div class="whatsNewItem">
+                    <!-- <div class="whatsNewItemImg"> -->
+                    <img src="./img/03.jpg" alt="">
+                    <!-- </div> -->
+
+
+                    <div class="whatsNewItemDescription">
+                        <h5 class="font-500">Invoicing</h5>
+                        <p>Create invoices from time entries and send them to your clients</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- feedbackSection -->
+    <section class="feedbackSection py-50">
+        <div class="container">
+            <div class="title">
+                <p>Feedback from our users</p>
+                <h3>What do users say about our application</h3>
+            </div>
+            <div class="feedbackItemsWrapper">
+                <div class="feedbackItem">
+                    <div class="feedbackContent">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis perspiciatis vero accusantium excepturi aperiam eius sit quis nobis</p>
+                    </div>
+                    <div class="feedbackProvider">
+                        <img src="./img/face1.jpg" alt="">
+                        <div class="userDesc">
+                            <h5 class="font-500">Jason Doe</h5>
+                            <span>User</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feedbackItem">
+                    <div class="feedbackContent">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis perspiciatis vero accusantium excepturi aperiam eius sit quis nobis</p>
+                    </div>
+                    <div class="feedbackProvider">
+                        <img src="./img/face2.jpg" alt="">
+                        <div class="userDesc">
+                            <h5 class="font-500">Amanda Swon</h5>
+                            <span>User</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feedbackItem">
+                    <div class="feedbackContent">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis perspiciatis vero accusantium excepturi aperiam eius sit quis nobis</p>
+                    </div>
+                    <div class="feedbackProvider">
+                        <img src="./img/face4.jpg" alt="">
+                        <div class="userDesc">
+                            <h5 class="font-500">Jane Olsen</h5>
+                            <span>User</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contactSection -->
+    <section class="contactSection py-50">
+        <div class="container">
+            <div class="contactSectionWrapper">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.9255426695927!2d90.35984721427602!3d22.693815534231128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375534130ba96c7f%3A0x84c69f29ea389019!2sNew%20House%20Rd%2C%20Barisal!5e0!3m2!1sen!2sbd!4v1603328813921!5m2!1sen!2sbd"
+                        width="100%" height="700" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="contactForm">
+                    <h4 class="font-500">
+                        Contact us</h4>
+                    <p>Contact us if you have any questions and we will contact you. We appreciate user feedback and be sure to take into account your wishes.</p>
+                    <form action="https://formspree.io/f/zahidbiswas1@gmail.com" method="post">
+                        <input name="email" type="email" placeholder="E-mail Address" required>
+                        <input name="name" type="text" placeholder="Name" required>
+                        <input name="phone" type="number" placeholder="Your Phone" required>
+                        <textarea required class="input" name="message" id=""></textarea>
+                        <input class="btn-fill" name="submit" type="submit" value="send">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center">&copy; Copyright 2020 <a href="http://biswas.ml/portfolio/">biswas.ml</a> - All Rights Reserved</footer>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
